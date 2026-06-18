@@ -1,0 +1,3 @@
+prompt reference 001:
+    - Comment out mobile frame images in project cards for cleaner display
+    - created prompt.txt file
