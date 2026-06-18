@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 520" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="glow" cx="67%" cy="52%" r="45%">
+      <stop offset="0" stop-color="#fb1b29" stop-opacity=".85"/>
+      <stop offset=".28" stop-color="#d70c18" stop-opacity=".32"/>
+      <stop offset=".72" stop-color="#050506" stop-opacity=".65"/>
+      <stop offset="1" stop-color="#000" stop-opacity="1"/>
+    </radialGradient>
+    <filter id="blurGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0" stop-color="#5b050b"/>
+      <stop offset=".45" stop-color="#ff1725"/>
+      <stop offset="1" stop-color="#ff7680"/>
+    </linearGradient>
+  </defs>
+  <rect width="1300" height="520" fill="#020203"/>
+  <rect width="1300" height="520" fill="url(#glow)"/>
+  <g opacity=".2">
+    <path d="M0 420h1300M0 365h1300M0 310h1300M0 255h1300M0 200h1300" stroke="#22040a"/>
+    <path d="M220 0v520M330 0v520M440 0v520M550 0v520M660 0v520M770 0v520M880 0v520M990 0v520M1100 0v520" stroke="#22040a"/>
+  </g>
+  <g transform="translate(470 85) skewX(-19)" fill="none" stroke="url(#line)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" filter="url(#blurGlow)">
+    <path d="M30 260H170V210H285V160H390V110H570"/>
+    <path d="M130 305H300V250H415V205H610V155H735"/>
+    <path d="M35 190H115V135H245V95H420V52H555"/>
+    <path d="M255 335V285H360V232H510V182"/>
+    <path d="M430 315H560V258H705V204H830"/>
+    <path d="M575 120H650V68H790"/>
+    <path d="M180 85V40H295"/>
+    <path d="M690 300H820V248H940"/>
+    <path d="M765 128H890V88H1040"/>
+    <path d="M330 142H472"/>
+    <path d="M90 238h72m175-40h62m190-62h62m110 126h76"/>
+    <circle cx="170" cy="210" r="8" fill="#ff1725"/>
+    <circle cx="390" cy="110" r="8" fill="#ff1725"/>
+    <circle cx="610" cy="155" r="8" fill="#ff1725"/>
+    <circle cx="735" cy="155" r="8" fill="#ff1725"/>
+    <circle cx="830" cy="204" r="8" fill="#ff1725"/>
+    <circle cx="1040" cy="88" r="8" fill="#ff1725"/>
+  </g>
+  <g opacity=".55" filter="url(#blurGlow)">
+    <circle cx="835" cy="236" r="6" fill="#fff"/>
+    <circle cx="942" cy="287" r="5" fill="#fff"/>
+    <circle cx="760" cy="153" r="4" fill="#fff"/>
+  </g>
+</svg>
