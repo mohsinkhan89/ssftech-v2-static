@@ -1,3 +1,6 @@
 prompt reference 001:
     - Comment out mobile frame images in project cards for cleaner display
     - created prompt.txt file
+
+prompt reference 002:
+    Add media query for hero section height adjustment on large screens
